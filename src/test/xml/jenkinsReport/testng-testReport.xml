@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="shclearing-reports" parallel="false">
+  <parameter name ="handlerMode" value="Selenium" />
+  <parameter name ="dbType" value="Oracle" />
+  <parameter name ="connectPath" value="dummyconnectstring;username;password" />
+  <parameter name ="browserType" value="chrome"/>
+  <parameter name ="emulationName" value="iPhone 6"/>
+  <parameter name ="browserPath" value="" />
+  <parameter name ="testFor" value="test" />
+  <test name="ShclearingTest">
+    <groups>
+		<define name="all">
+			<include name="automation.testresult.report" />
+		</define>
+		<run>  
+			<include name="all"/> 
+		</run>  
+	</groups>
+    <classes>
+    	<!-- jenkins执行结果报告 -->
+    	<class name = "com.jenkinsreport.jenkinsreportscript.testCaseOfJenkinsReport"/>
+    </classes>
+  </test>
+</suite>

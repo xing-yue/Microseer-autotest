@@ -1,0 +1,40 @@
+
+[2019-12-23 10:06:38] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 工薪计 demo is start
+
+[2019-12-23 10:06:39] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfGxjDemo' on class com.automation.framework.utils.TestNGRetry Retrying 0 times
+[2019-12-23 10:06:39] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-23 10:06:39] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:工薪计 demofail执行失败，请检查原因
+[2019-12-23 10:06:39] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:129):case 工薪计 demo is end
+[2019-12-23 10:06:39] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:130):{'caseOfGxjDemo','工薪计 demo'}
+[2019-12-23 10:06:42] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 工薪计 demo is start
+
+[2019-12-23 10:06:42] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfGxjDemo' on class com.automation.framework.utils.TestNGRetry Retrying 1 times
+[2019-12-23 10:06:42] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-23 10:06:42] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:工薪计 demofail执行失败，请检查原因
+[2019-12-23 10:06:42] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:129):case 工薪计 demo is end
+[2019-12-23 10:06:42] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:130):{'caseOfGxjDemo','工薪计 demo'}
+[2019-12-23 10:06:42] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 工薪计 demo is start
+
+[2019-12-23 10:06:42] [ERROR] com.automation.framework.utils.TestNGListener.onTestFailure(TestNGListener.java:74):Test Failure
+[2019-12-23 10:06:42] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:工薪计 demofail执行失败，请检查原因
+[2019-12-23 10:06:42] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:129):case 工薪计 demo is end
+[2019-12-23 10:06:42] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:130):{'caseOfGxjDemo','工薪计 demo'}
+[2019-12-23 10:06:42] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:36):failedTest = caseOfGxjDemo
+[2019-12-23 10:08:54] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 工薪计 demo is start
+
+[2019-12-23 10:08:56] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfGxjDemo' on class com.automation.framework.utils.TestNGRetry Retrying 0 times
+[2019-12-23 10:08:56] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-23 10:08:56] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:工薪计 demofail执行失败，请检查原因
+[2019-12-23 10:08:56] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:129):case 工薪计 demo is end
+[2019-12-23 10:08:56] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:130):{'caseOfGxjDemo','工薪计 demo'}
+[2019-12-23 10:08:59] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 工薪计 demo is start
+
+[2019-12-23 10:08:59] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfGxjDemo' on class com.automation.framework.utils.TestNGRetry Retrying 1 times
+[2019-12-23 10:08:59] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-23 10:08:59] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:工薪计 demofail执行失败，请检查原因
+[2019-12-23 10:08:59] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:129):case 工薪计 demo is end
+[2019-12-23 10:08:59] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:130):{'caseOfGxjDemo','工薪计 demo'}
+[2019-12-23 10:08:59] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 工薪计 demo is start
+
+[2019-12-23 10:08:59] [ERROR] com.automation.framework.utils.TestNGListener.onTestFailure(TestNGListener.java:74):Test Failure
+[2019-12-23 10:08:59] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:工薪计 demofail执行失败，请检查原因

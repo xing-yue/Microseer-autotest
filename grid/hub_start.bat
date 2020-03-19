@@ -1,0 +1,1 @@
+java -jar D:\git_auto\Microseer-Automation\lib\selenium-server-standalone-2.53.1.jar -role hub -hubConfig D:\git_auto\Microseer-Automation\src\main\resources\grid_hub.json

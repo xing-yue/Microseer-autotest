@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="microseerWorkflowTestOfGXJ" parallel="false" thread-count="5">
+  <listeners>
+  	<listener class-name="com.automation.framework.utils.TestNGListener" />
+    <listener class-name="com.automation.framework.utils.RetryListener" />
+    <listener class-name="com.automation.framework.extentreport.IReporterListener" />
+  </listeners>
+  <parameter name ="handlerMode" value="Selenium" />
+  <parameter name ="dbType" value="Oracle" />
+  <parameter name ="connectPath" value="dummyconnectstring;username;password" />
+  <parameter name ="browserType" value="chrome"/>
+  <parameter name ="emulationName" value="iPhone 6"/>
+  <parameter name ="browserPath" value="" />
+  <parameter name ="testFor" value="pre" />
+  <parameter name ="TestReportName" value="extentTestReport" />
+  <test name="GXJ">
+    <classes>
+    	<class name="microseer.GXJ.script.TestCaseOfGXJ" />
+    </classes>
+  </test>
+  <test name="MakerServer">
+    <classes>
+    	<class name="microseer.MakerServer.script.TestCaseOfMakerServer" />
+    </classes>
+  </test>  
+</suite>

@@ -1,0 +1,18 @@
+
+[2019-10-21 18:54:44] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case Salary demo is start
+
+[2019-10-21 18:54:57] [INFO] com.automation.framework.base.WebAbstractCaseBase.txtBoxSendValue(WebAbstractCaseBase.java:2290):输入：13321872737
+[2019-10-21 18:54:58] [INFO] com.automation.framework.base.WebAbstractCaseBase.txtBoxSendValue(WebAbstractCaseBase.java:2290):输入：123456
+[2019-10-21 18:54:58] [INFO] com.automation.framework.base.WebAbstractCaseBase.eleClickBy(WebAbstractCaseBase.java:2671):点击登录
+[2019-10-21 18:54:59] [INFO] com.automation.framework.base.WebAbstractCaseBase.eleClickBy(WebAbstractCaseBase.java:2671):点击微知测试（内部）
+微知（上海）服务外包有限公司
+[2019-10-21 18:55:01] [INFO] com.automation.framework.base.WebAbstractCaseBase.eleClickByValue(WebAbstractCaseBase.java:2514):点击288572
+[2019-10-21 18:55:01] [INFO] com.automation.framework.base.WebAbstractCaseBase.eleClickBy(WebAbstractCaseBase.java:2671):点击确定
+[2019-10-21 18:55:07] [INFO] com.automation.framework.base.WebAbstractCaseBase.eleClickBy(WebAbstractCaseBase.java:2671):点击收入发放
+[2019-10-21 18:55:10] [INFO] com.automation.framework.base.WebAbstractCaseBase.eleClickBy(WebAbstractCaseBase.java:2671):点击创建发放
+[2019-10-21 18:55:12] [INFO] com.automation.microseer.common.MicroseerCommon.labelForGet(MicroseerCommon.java:660):标签'支付企业'的属性'for'的值为companyId
+[2019-10-21 18:55:12] [INFO] com.automation.framework.base.WebAbstractCaseBase.eleClickBy(WebAbstractCaseBase.java:2671):点击支付企业名称关键字
+[2019-10-21 18:55:25] [ERROR] com.automation.framework.action.SeleniumWebHandler.findSeleniumElement(SeleniumWebHandler.java:474):Can not find element with locator: xpath==//input[@id='companyId']
+[2019-10-21 18:55:25] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfSalaryTaskCreate' on class com.automation.framework.utils.TestNGRetry Retrying 0 times
+[2019-10-21 18:55:25] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-10-21 18:55:25] [INFO] com.automation.framework.base.WebTestNGCaseBaseUI.afterMethod(WebTestNGCaseBaseUI.java:146):case:Salary demofail执行失败，请检查原因

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<db>
+	<testEnv>
+		<dbUser>testdbuser</dbUser>
+		<dbPwd>TEST345!@#USER</dbPwd>
+		<dbUrl>192.168.2.110</dbUrl>
+		<dbName></dbName>
+	</testEnv>
+	<uatEnv>
+		<dbUser>readuser</dbUser>
+		<dbPwd>READ433$SKUSER</dbPwd>
+		<dbUrl>121.40.137.186</dbUrl>
+		<dbName></dbName>
+	</uatEnv>
+</db>

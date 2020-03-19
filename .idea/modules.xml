@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/autoTest_ui.iml" filepath="$PROJECT_DIR$/autoTest_ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoTest_ui (1).iml" filepath="$PROJECT_DIR$/autoTest_ui (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoTest_ui (1) (com.microseer.automation).iml" filepath="$PROJECT_DIR$/autoTest_ui (1) (com.microseer.automation).iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoTest_ui (2).iml" filepath="$PROJECT_DIR$/autoTest_ui (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoTest_ui (3).iml" filepath="$PROJECT_DIR$/autoTest_ui (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoTest_ui (4).iml" filepath="$PROJECT_DIR$/autoTest_ui (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoTest_ui (5).iml" filepath="$PROJECT_DIR$/autoTest_ui (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoTest_ui (6) (com.microseer.automation).iml" filepath="$PROJECT_DIR$/autoTest_ui (6) (com.microseer.automation).iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoTest_ui (7).iml" filepath="$PROJECT_DIR$/autoTest_ui (7).iml" />
+      <module fileurl="file://$PROJECT_DIR$/autoTest_ui (8).iml" filepath="$PROJECT_DIR$/autoTest_ui (8).iml" />
+    </modules>
+  </component>
+</project>

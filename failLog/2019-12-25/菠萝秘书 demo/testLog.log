@@ -1,0 +1,279 @@
+
+[2019-12-25 09:57:31] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 09:57:31] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):
+[2019-12-25 09:57:45] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):登录
+[2019-12-25 09:57:48] [INFO] com.automation.framework.verification.ValidationUtil.verifyTrue(ValidationUtil.java:63):Passed >> 菠萝秘书 demo
+[2019-12-25 09:57:52] [INFO] com.automation.framework.utils.TestNGListener.onTestSuccess(TestNGListener.java:87):Test Success
+[2019-12-25 09:57:52] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:菠萝秘书 demopass
+[2019-12-25 09:57:52] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 09:57:52] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMAddOpt','菠萝秘书 demo'}
+[2019-12-25 09:57:54] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 09:57:55] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMLoginDemo' on class com.automation.framework.utils.TestNGRetry Retrying 0 times
+[2019-12-25 09:57:55] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-25 09:57:55] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:菠萝秘书 demopass
+[2019-12-25 09:57:55] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 09:57:55] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 09:57:55] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 09:57:55] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMLoginDemo' on class com.automation.framework.utils.TestNGRetry Retrying 1 times
+[2019-12-25 09:57:55] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-25 09:57:55] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:菠萝秘书 demopass
+[2019-12-25 09:57:55] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 09:57:55] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 09:57:55] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 09:57:55] [ERROR] com.automation.framework.utils.TestNGListener.onTestFailure(TestNGListener.java:74):Test Failure
+[2019-12-25 09:57:55] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:菠萝秘书 demopass
+[2019-12-25 09:57:55] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 09:57:55] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 09:57:55] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:27):PassedTests = caseOfCRMAddOpt
+[2019-12-25 09:57:55] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:36):failedTest = caseOfCRMLoginDemo
+[2019-12-25 09:59:14] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 09:59:14] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 09:59:14] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMAddOpt' on class com.automation.framework.utils.TestNGRetry Retrying 0 times
+[2019-12-25 09:59:14] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-25 09:59:14] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 09:59:14] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 09:59:14] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMAddOpt','菠萝秘书 demo'}
+[2019-12-25 09:59:16] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):
+[2019-12-25 09:59:17] [ERROR] com.automation.framework.base.WebAbstractCaseBase.exceptionErrorHandle(WebAbstractCaseBase.java:2817):An unknown server-side error occurred while processing the command. Original error: Android bootstrap socket crashed: Error: This socket has been ended by the other party
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANYONGJUN-PC', ip: '169.254.216.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.pscrm.app.fragment.Main..., appPackage: com.pscrm.app, databaseEnabled: false, desired: {appActivity: com.pscrm.app.fragment.Main..., appPackage: com.pscrm.app, deviceName: 127.0.0.1:62027, noReset: false, platformName: android, platformVersion: 4.4.2, udid: 127.0.0.1:62027}, deviceManufacturer: samsung, deviceModel: SM-G955F, deviceName: 127.0.0.1:62027, deviceScreenSize: 1080x1920, deviceUDID: 127.0.0.1:62027, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 4.4.2, takesScreenshot: true, udid: 127.0.0.1:62027, warnings: {}, webStorageEnabled: false}
+Session ID: 04e700f8-7896-47ea-b343-66cf511e36e8
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 09:59:17] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMAddOpt' on class com.automation.framework.utils.TestNGRetry Retrying 1 times
+[2019-12-25 09:59:17] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMAddOpt','菠萝秘书 demo'}
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 09:59:17] [ERROR] com.automation.framework.utils.TestNGListener.onTestFailure(TestNGListener.java:74):Test Failure
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMAddOpt','菠萝秘书 demo'}
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 09:59:17] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMLoginDemo' on class com.automation.framework.utils.TestNGRetry Retrying 0 times
+[2019-12-25 09:59:17] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 09:59:17] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMLoginDemo' on class com.automation.framework.utils.TestNGRetry Retrying 1 times
+[2019-12-25 09:59:17] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 09:59:17] [ERROR] com.automation.framework.utils.TestNGListener.onTestFailure(TestNGListener.java:74):Test Failure
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 09:59:17] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 09:59:18] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:36):failedTest = caseOfCRMLoginDemo
+[2019-12-25 09:59:18] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:36):failedTest = caseOfCRMAddOpt
+[2019-12-25 09:59:32] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):登录
+[2019-12-25 09:59:39] [INFO] com.automation.framework.verification.ValidationUtil.verifyTrue(ValidationUtil.java:63):Passed >> 
+[2019-12-25 09:59:45] [INFO] com.automation.framework.utils.TestNGListener.onTestSuccess(TestNGListener.java:87):Test Success
+[2019-12-25 09:59:45] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:pass
+[2019-12-25 09:59:45] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case  is end
+[2019-12-25 09:59:45] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMAddOpt',''}
+[2019-12-25 09:59:48] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 09:59:48] [ERROR] com.automation.framework.utils.TestNGListener.onTestFailure(TestNGListener.java:74):Test Failure
+[2019-12-25 09:59:48] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:菠萝秘书 demopass
+[2019-12-25 09:59:48] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 09:59:48] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 09:59:48] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:27):PassedTests = caseOfCRMAddOpt
+[2019-12-25 09:59:48] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:36):failedTest = caseOfCRMLoginDemo
+[2019-12-25 10:01:10] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:01:10] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMLoginDemo' on class com.automation.framework.utils.TestNGRetry Retrying 0 times
+[2019-12-25 10:01:10] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-25 10:01:10] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 10:01:10] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:01:10] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:01:12] [ERROR] com.automation.framework.base.WebAbstractCaseBase.exceptionErrorHandle(WebAbstractCaseBase.java:2817):An unknown server-side error occurred while processing the command. Original error: Android bootstrap socket crashed: Error: This socket has been ended by the other party
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANYONGJUN-PC', ip: '169.254.216.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.pscrm.app.fragment.Main..., appPackage: com.pscrm.app, databaseEnabled: false, desired: {appActivity: com.pscrm.app.fragment.Main..., appPackage: com.pscrm.app, deviceName: 127.0.0.1:62001, noReset: false, platformName: android, platformVersion: 4.4.2, udid: 127.0.0.1:62001}, deviceManufacturer: samsung, deviceModel: SM-G955F, deviceName: 127.0.0.1:62001, deviceScreenSize: 1080x1920, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 4.4.2, takesScreenshot: true, udid: 127.0.0.1:62001, warnings: {}, webStorageEnabled: false}
+Session ID: 57ab2603-80f0-4d2d-beba-93afe7ff5753
+[2019-12-25 10:01:12] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:01:12] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMLoginDemo' on class com.automation.framework.utils.TestNGRetry Retrying 1 times
+[2019-12-25 10:01:12] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-25 10:01:12] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 10:01:12] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:01:12] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:01:12] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:01:13] [ERROR] com.automation.framework.utils.TestNGListener.onTestFailure(TestNGListener.java:74):Test Failure
+[2019-12-25 10:01:13] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 10:01:13] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:01:13] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:01:13] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:36):failedTest = caseOfCRMLoginDemo
+[2019-12-25 10:01:13] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:01:13] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):
+[2019-12-25 10:01:28] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):登录
+[2019-12-25 10:01:33] [INFO] com.automation.framework.verification.ValidationUtil.verifyTrue(ValidationUtil.java:63):Passed >> 菠萝秘书 demo
+[2019-12-25 10:01:37] [INFO] com.automation.framework.utils.TestNGListener.onTestSuccess(TestNGListener.java:87):Test Success
+[2019-12-25 10:01:37] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:菠萝秘书 demopass
+[2019-12-25 10:01:37] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:01:37] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:01:40] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:27):PassedTests = caseOfCRMLoginDemo
+[2019-12-25 10:02:17] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:02:17] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):
+[2019-12-25 10:02:20] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:02:32] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):登录
+[2019-12-25 10:02:40] [INFO] com.automation.framework.verification.ValidationUtil.verifyTrue(ValidationUtil.java:63):Passed >> 菠萝秘书 demo
+[2019-12-25 10:02:43] [INFO] com.automation.framework.utils.TestNGListener.onTestSuccess(TestNGListener.java:87):Test Success
+[2019-12-25 10:02:43] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:菠萝秘书 demopass
+[2019-12-25 10:02:43] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:02:43] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:02:46] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:27):PassedTests = caseOfCRMLoginDemo
+[2019-12-25 10:04:30] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:04:30] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):
+[2019-12-25 10:04:36] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:04:45] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):登录
+[2019-12-25 10:12:28] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:12:28] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):
+[2019-12-25 10:12:42] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):登录
+[2019-12-25 10:13:38] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:13:39] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:13:41] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):
+[2019-12-25 10:13:56] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):登录
+[2019-12-25 10:14:03] [INFO] com.automation.framework.verification.ValidationUtil.verifyTrue(ValidationUtil.java:63):Passed >> 菠萝秘书 demo
+[2019-12-25 10:14:07] [INFO] com.automation.framework.utils.TestNGListener.onTestSuccess(TestNGListener.java:87):Test Success
+[2019-12-25 10:14:07] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:菠萝秘书 demopass
+[2019-12-25 10:14:07] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:14:07] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:14:11] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:27):PassedTests = caseOfCRMLoginDemo
+[2019-12-25 10:17:18] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:17:18] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):
+[2019-12-25 10:17:20] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:17:34] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):登录
+[2019-12-25 10:17:42] [INFO] com.automation.framework.verification.ValidationUtil.verifyTrue(ValidationUtil.java:63):Passed >> 菠萝秘书 demo
+[2019-12-25 10:17:46] [INFO] com.automation.framework.utils.TestNGListener.onTestSuccess(TestNGListener.java:87):Test Success
+[2019-12-25 10:17:46] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:菠萝秘书 demopass
+[2019-12-25 10:17:46] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:17:46] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:17:50] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:27):PassedTests = caseOfCRMLoginDemo
+[2019-12-25 10:21:58] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:21:58] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMLoginDemo' on class com.automation.framework.utils.TestNGRetry Retrying 0 times
+[2019-12-25 10:21:58] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-25 10:21:58] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 10:21:58] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:21:58] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:22:00] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:22:00] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):
+[2019-12-25 10:22:00] [ERROR] com.automation.framework.base.WebAbstractCaseBase.exceptionErrorHandle(WebAbstractCaseBase.java:2817):An unknown server-side error occurred while processing the command. Original error: Android bootstrap socket crashed: Error: This socket has been ended by the other party
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANYONGJUN-PC', ip: '169.254.216.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.pscrm.app.fragment.Main..., appPackage: com.pscrm.app, databaseEnabled: false, desired: {appActivity: com.pscrm.app.fragment.Main..., appPackage: com.pscrm.app, deviceName: 127.0.0.1:62001, noReset: false, platformName: android, platformVersion: 4.4.2, udid: 127.0.0.1:62001}, deviceManufacturer: samsung, deviceModel: SM-G955F, deviceName: 127.0.0.1:62001, deviceScreenSize: 1080x1920, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 4.4.2, takesScreenshot: true, udid: 127.0.0.1:62001, warnings: {}, webStorageEnabled: false}
+Session ID: 5bf4b60e-354f-4c52-bda0-d9f0d67ce1a7
+[2019-12-25 10:22:00] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:22:00] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMLoginDemo' on class com.automation.framework.utils.TestNGRetry Retrying 1 times
+[2019-12-25 10:22:00] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-25 10:22:00] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 10:22:00] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:22:00] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:22:00] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:22:00] [ERROR] com.automation.framework.utils.TestNGListener.onTestFailure(TestNGListener.java:74):Test Failure
+[2019-12-25 10:22:00] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 10:22:00] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:22:00] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:22:01] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:36):failedTest = caseOfCRMLoginDemo
+[2019-12-25 10:22:15] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):登录
+[2019-12-25 10:22:20] [INFO] com.automation.framework.verification.ValidationUtil.verifyTrue(ValidationUtil.java:63):Passed >> 
+[2019-12-25 10:22:25] [INFO] com.automation.framework.utils.TestNGListener.onTestSuccess(TestNGListener.java:87):Test Success
+[2019-12-25 10:22:25] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:pass
+[2019-12-25 10:22:25] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case  is end
+[2019-12-25 10:22:25] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo',''}
+[2019-12-25 10:22:29] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:27):PassedTests = caseOfCRMLoginDemo
+[2019-12-25 10:46:34] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:46:34] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMLoginDemo' on class com.automation.framework.utils.TestNGRetry Retrying 0 times
+[2019-12-25 10:46:34] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-25 10:46:34] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 10:46:34] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:46:34] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:46:35] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:46:35] [ERROR] com.automation.framework.base.WebAbstractCaseBase.exceptionErrorHandle(WebAbstractCaseBase.java:2817):An unknown server-side error occurred while processing the command. Original error: Android bootstrap socket crashed: Error: This socket has been ended by the other party
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANYONGJUN-PC', ip: '169.254.216.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.pscrm.app.fragment.Main..., appPackage: com.pscrm.app, databaseEnabled: false, desired: {appActivity: com.pscrm.app.fragment.Main..., appPackage: com.pscrm.app, deviceName: 127.0.0.1:62001, noReset: false, platformName: android, platformVersion: 4.4.2, udid: 127.0.0.1:62001}, deviceManufacturer: samsung, deviceModel: SM-G955F, deviceName: 127.0.0.1:62001, deviceScreenSize: 1080x1920, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 4.4.2, takesScreenshot: true, udid: 127.0.0.1:62001, warnings: {}, webStorageEnabled: false}
+Session ID: ff561f5a-90f3-49bf-b365-afad27a31f03
+[2019-12-25 10:46:35] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:46:35] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMLoginDemo' on class com.automation.framework.utils.TestNGRetry Retrying 1 times
+[2019-12-25 10:46:35] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-25 10:46:35] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 10:46:35] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:46:35] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:46:35] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:46:35] [ERROR] com.automation.framework.utils.TestNGListener.onTestFailure(TestNGListener.java:74):Test Failure
+[2019-12-25 10:46:35] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-25 10:46:35] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:46:35] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:46:35] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):
+[2019-12-25 10:46:36] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:36):failedTest = caseOfCRMLoginDemo
+[2019-12-25 10:46:52] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):登录
+[2019-12-25 10:46:55] [INFO] com.automation.framework.verification.ValidationUtil.verifyTrue(ValidationUtil.java:63):Passed >> 
+[2019-12-25 10:46:57] [INFO] com.automation.framework.utils.TestNGListener.onTestSuccess(TestNGListener.java:87):Test Success
+[2019-12-25 10:46:57] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:pass
+[2019-12-25 10:46:57] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case  is end
+[2019-12-25 10:46:57] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo',''}
+[2019-12-25 10:46:59] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:27):PassedTests = caseOfCRMLoginDemo
+[2019-12-25 10:48:11] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:48:11] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):
+[2019-12-25 10:48:13] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 10:48:27] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):登录
+[2019-12-25 10:48:30] [INFO] com.automation.framework.verification.ValidationUtil.verifyTrue(ValidationUtil.java:63):Passed >> 菠萝秘书 demo
+[2019-12-25 10:48:32] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:菠萝秘书 demopass
+[2019-12-25 10:48:32] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case 菠萝秘书 demo is end
+[2019-12-25 10:48:32] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-25 10:49:28] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:121):case:pass
+[2019-12-25 10:49:28] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:124):case  is end
+[2019-12-25 10:49:28] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):{'caseOfCRMLoginDemo',''}
+[2019-12-25 10:49:28] [ERROR] com.automation.framework.base.WebAbstractCaseBase.exceptionErrorHandle(WebAbstractCaseBase.java:2817):A session is either terminated or not started
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'PANYONGJUN-PC', ip: '169.254.216.140', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_65'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities {appActivity: com.pscrm.app.fragment.Main..., appPackage: com.pscrm.app, databaseEnabled: false, desired: {appActivity: com.pscrm.app.fragment.Main..., appPackage: com.pscrm.app, deviceName: 127.0.0.1:62001, noReset: false, platformName: android, platformVersion: 4.4.2, udid: 127.0.0.1:62001}, deviceManufacturer: samsung, deviceModel: SM-G955F, deviceName: 127.0.0.1:62001, deviceScreenSize: 1080x1920, deviceUDID: 127.0.0.1:62001, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, noReset: false, platform: LINUX, platformName: Android, platformVersion: 4.4.2, takesScreenshot: true, udid: 127.0.0.1:62001, warnings: {}, webStorageEnabled: false}
+Session ID: 23569068-d404-4815-bf2e-2a6e9da2d1dc
+[2019-12-25 11:13:01] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 11:13:01] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-25 11:13:02] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:54):
+[2019-12-25 11:13:02] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:116):case:菠萝秘书 demofail执行失败，请检查原因

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="microseerWorkflowTest" parallel="false">
+  <listeners>
+  	<listener class-name="com.automation.framework.utils.TestNGListener" />
+    <listener class-name="com.automation.framework.utils.RetryListener" />
+  </listeners>
+  <parameter name ="handlerMode" value="Selenium" />
+  <parameter name ="dbType" value="Oracle" />
+  <parameter name ="connectPath" value="dummyconnectstring;username;password" />
+  <parameter name ="browserType" value="chrome"/>
+  <parameter name ="emulationName" value="iPhone 6"/>
+  <parameter name ="browserPath" value="" />
+  <parameter name ="testFor" value="pre" />
+  <test name="Salary">
+    <groups>
+		<define name="all">
+			<include name="microseer.Salary.test" />
+		</define>
+		<run>  
+			<include name="all"/> 
+		</run>  
+	</groups>
+    <classes>
+    	<class name="microseer.Salary.script.TestCaseOfSalary" />
+    </classes>
+  </test>
+</suite>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<account>
+	<testEnv>
+		<dbUser>testdbuser</dbUser>
+		<dbPwd>TEST345!@#USER</dbPwd>
+		<dbUrl>192.168.2.110</dbUrl>
+		<dbName>agency_order</dbName>
+		<!--派单中心 -->
+		<distributor>
+			<user>13052070538</user>
+			<password>a215615</password>
+		</distributor>
+		<!--接单中心-->
+		<orderTake>
+			<user>13999999999</user>
+			<password>123456</password>
+		</orderTake>
+		<!--客服中心 、员服中心、供应链、福利政策-->
+		<microseer>
+			<user>13999999999</user>
+			<password>123456</password>
+			<secPwd>123456</secPwd>
+		</microseer>
+	</testEnv>
+	<uatEnv>
+		<dbUser>readuser</dbUser>
+		<dbPwd>READ433$SKUSER</dbPwd>
+		<dbUrl>121.40.137.186</dbUrl>
+		<dbName>agency_order</dbName>
+		<!--派单中心 -->
+		<distributor>
+			<user>15011111111</user>
+			<password>123456</password>
+		</distributor>
+		<!--接单中心-->
+		<orderTake>
+			<user>vip2373@viphrm.com</user>
+			<password>123456</password>
+		</orderTake>
+		<!--客服中心 、员服中心、供应链、福利政策-->
+		<microseer>
+			<user>15022222222</user>
+			<password>123456</password>
+			<secPwd>123456</secPwd>
+		</microseer>
+	</uatEnv>
+</account>

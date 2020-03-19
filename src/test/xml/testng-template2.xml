@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="microseerWorkflowOfSCM" parallel="false" thread-count="5">
+  <listeners>
+  	<listener class-name="com.automation.framework.utils.TestNGListener" />
+    <listener class-name="com.automation.framework.utils.RetryListener" />
+  </listeners>
+  <parameter name ="handlerMode" value="Selenium" />
+  <parameter name ="dbType" value="Oracle" />
+  <parameter name ="connectPath" value="dummyconnectstring;username;password" />
+  <parameter name ="browserType" value="chrome"/>
+  <parameter name ="emulationName" value="iPhone 6"/>
+  <parameter name ="browserPath" value="" />
+  <parameter name ="testFor" value="test" />
+  <parameter name ="TestReportName" value="extentTestReport" />
+  <test name="SCM">
+    <classes>
+    	<class name="microseer.SCM.script.TestCaseOfSCM" />
+    </classes>
+  </test>
+</suite>

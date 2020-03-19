@@ -1,0 +1,1 @@
+java -jar Z:\git_auto\Microseer-Automation\lib\selenium-server-standalone-2.53.1.jar -role node -nodeConfig Z:\git_auto\Microseer-Automation\src\main\resources\grid_node.json

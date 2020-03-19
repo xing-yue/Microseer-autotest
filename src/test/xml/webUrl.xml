@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webUrl>
+	<moa>
+		<!-- 测试连接 -->
+		<testUrl>http://dvlogin.viphrm.com/</testUrl>
+		<!-- 预生产连接 -->
+		<preUrl>http://testlogin.viphrm.com/</preUrl>
+		<!-- 生产连接 -->
+		<proUrl>http://login.viphrm.com/</proUrl>	
+	</moa>
+	<Finance>
+		<!-- 测试连接 -->
+		<testUrl>https://dvfinancecenter.viphrm.com/</testUrl>
+		<!-- 预生产连接 -->
+		<preUrl>https://prefinancecenter.viphrm.com/</preUrl>
+		<!-- 生产连接 -->
+		<proUrl>https://financecenter.viphrm.com/</proUrl>	
+	</Finance>
+	<GXJ>
+		<!-- 测试连接 -->
+		<testUrl>http://dvgongxj.viphrm.com/login</testUrl>
+		<!-- 预生产连接 -->
+		<preUrl>https://pregongxj.viphrm.com/login</preUrl>
+		<!-- 生产连接 -->
+		<proUrl>https://gongxj.viphrm.com/login</proUrl>	
+	</GXJ>	
+	<Salary>
+		<!-- 测试连接 -->
+		<testUrl>http://dvsalaryweizhi.viphrm.com/</testUrl>
+		<!-- 预生产连接 -->
+		<preUrl>http://testsalaryweizhi.viphrm.com</preUrl>
+		<!-- 生产连接 -->
+		<proUrl>https://salaryweizhi.viphrm.com</proUrl>	
+	</Salary>	
+	<MOSS>
+		<!-- 测试连接 -->
+		<testUrl>http://dvmoss.viphrm.com/</testUrl>
+		<!-- 预生产连接 -->
+		<preUrl>http://premoss.viphrm.com</preUrl>
+		<!-- 生产连接 -->
+		<proUrl>https://moss.viphrm.com</proUrl>
+	</MOSS>		
+	<OSS>
+		<!-- 测试连接 -->
+		<testUrl>http://testoss.viphrm.com:8082</testUrl>
+		<!-- 预生产连接 -->
+		<preUrl>http://testoss.viphrm.com:8084</preUrl>
+		<!-- 生产连接 -->
+		<proUrl>http://ossnew.viphrm.com:8086</proUrl>	
+	</OSS>	
+	<Auth>
+		<!-- 测试连接 -->
+		<testUrl>http://testoss.viphrm.com:8082</testUrl>
+		<!-- 预生产连接 -->
+		<preUrl>http://testoss.viphrm.com:8084</preUrl>
+		<!-- 生产连接 -->
+		<proUrl>http://ossnew.viphrm.com:8086</proUrl>	
+	</Auth>		
+	<MakerServer>
+		<!-- 测试连接 -->
+		<testUrl>http://dvmakerserver.viphrm.com</testUrl>
+		<!-- 预生产连接 -->
+		<preUrl>http://testmakerserver.viphrm.com</preUrl>
+		<!-- 生产连接 -->
+		<proUrl>http://op.viphrm.com</proUrl>	
+	</MakerServer>		
+	
+</webUrl>

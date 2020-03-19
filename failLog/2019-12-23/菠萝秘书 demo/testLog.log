@@ -1,0 +1,49 @@
+
+[2019-12-23 16:48:01] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-23 16:48:09] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:37):
+[2019-12-23 16:48:35] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:37):登录
+[2019-12-23 16:49:40] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-23 16:49:40] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:37):
+[2019-12-23 16:49:56] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:37):登录
+[2019-12-23 16:49:57] [INFO] com.automation.framework.verification.ValidationUtil.verifyTrue(ValidationUtil.java:58):Failed >> 菠萝秘书 demo
+[2019-12-23 16:50:00] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfGxjDemo' on class com.automation.framework.utils.TestNGRetry Retrying 0 times
+[2019-12-23 16:50:00] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-23 16:50:00] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-23 16:50:00] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:133):case 菠萝秘书 demo is end
+[2019-12-23 16:50:00] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:134):{'caseOfGxjDemo','菠萝秘书 demo'}
+[2019-12-23 16:50:02] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-23 16:50:02] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfGxjDemo' on class com.automation.framework.utils.TestNGRetry Retrying 1 times
+[2019-12-23 16:50:02] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-23 16:50:02] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-23 16:50:02] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:133):case 菠萝秘书 demo is end
+[2019-12-23 16:50:02] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:134):{'caseOfGxjDemo','菠萝秘书 demo'}
+[2019-12-23 16:50:02] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-23 16:50:02] [ERROR] com.automation.framework.utils.TestNGListener.onTestFailure(TestNGListener.java:74):Test Failure
+[2019-12-23 16:50:02] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-23 16:50:02] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:133):case 菠萝秘书 demo is end
+[2019-12-23 16:50:02] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:134):{'caseOfGxjDemo','菠萝秘书 demo'}
+[2019-12-23 16:50:03] [INFO] com.automation.framework.utils.TestNGListener.onFinish(TestNGListener.java:36):failedTest = caseOfGxjDemo
+[2019-12-23 17:03:43] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-23 17:03:43] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:37):
+[2019-12-23 17:03:57] [INFO] com.automation.framework.base.AppAbstractCaseBase.eleClickById(AppAbstractCaseBase.java:37):登录
+[2019-12-23 17:04:04] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMLoginDemo' on class com.automation.framework.utils.TestNGRetry Retrying 0 times
+[2019-12-23 17:04:04] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-23 17:04:04] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-23 17:04:04] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:133):case 菠萝秘书 demo is end
+[2019-12-23 17:04:04] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:134):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-23 17:04:07] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-23 17:04:07] [INFO] com.automation.framework.utils.TestNGRetry.retry(TestNGRetry.java:21):Running retry for 'caseOfCRMLoginDemo' on class com.automation.framework.utils.TestNGRetry Retrying 1 times
+[2019-12-23 17:04:07] [ERROR] com.automation.framework.utils.TestNGListener.onTestSkipped(TestNGListener.java:94):Test Skip
+[2019-12-23 17:04:07] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):case:菠萝秘书 demofail执行失败，请检查原因
+[2019-12-23 17:04:07] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:133):case 菠萝秘书 demo is end
+[2019-12-23 17:04:07] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:134):{'caseOfCRMLoginDemo','菠萝秘书 demo'}
+[2019-12-23 17:04:07] [INFO] com.automation.framework.base.WebAbstractCaseBase.whichCaseIsRun(WebAbstractCaseBase.java:1490):case 菠萝秘书 demo is start
+
+[2019-12-23 17:04:07] [ERROR] com.automation.framework.utils.TestNGListener.onTestFailure(TestNGListener.java:74):Test Failure
+[2019-12-23 17:04:07] [INFO] com.automation.framework.base.AppTestNGCaseBaseUI.afterMethod(AppTestNGCaseBaseUI.java:125):case:菠萝秘书 demofail执行失败，请检查原因

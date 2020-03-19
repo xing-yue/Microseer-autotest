@@ -1,0 +1,444 @@
+﻿<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>test</groupId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>ui</name>
+
+	<build>
+<!-- 		<defaultGoal>compile</defaultGoal>
+		<pluginManagement> -->
+			<plugins>
+				<!-- build-helper-maven-plugin, 设置多个源文件夹 -->
+                <plugin>
+                    <groupId>org.codehaus.mojo</groupId>
+                    <artifactId>build-helper-maven-plugin</artifactId>
+                    <version>3.0.0</version>
+                    <executions>
+                       <execution>
+                            <id>add-test-source</id>
+                            <phase>generate-test-sources</phase>
+                            <!-- <phase>initialize</phase>   -->
+                            <goals>
+                                <goal>add-test-source</goal>
+                            </goals>
+							<configuration>
+								<sources>
+									<source>src/main/java</source>
+									<source>src/test/jenkinsreport</source>
+									<source>src/test/ui</source>
+									<source>src/test/xml</source>
+								</sources>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>  
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<configuration>
+						<source>1.7</source>
+						<target>1.7</target>
+					</configuration>
+				</plugin>
+				<!-- 添加插件 关联testNg.xml -->
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<!-- <version>2.17</version> -->
+					<version>2.22.0</version>
+					<configuration>
+						<suiteXmlFiles>
+							<suiteXmlFile>${basedir}/src/test/xml/jenkinsReport/testng-testReport.xml</suiteXmlFile>
+<!-- 							<suiteXmlFile>${basedir}/src/test/xml/ui/microseer/workflow/testng-workflow-good.xml</suiteXmlFile>
+							<suiteXmlFile>${basedir}/src/test/xml/ui/microseer/workflow/testng-workflow-bad.xml</suiteXmlFile>
+							<suiteXmlFile>${basedir}/src/test/xml/ui/microseer/workflow/testng-workflow-fee.xml</suiteXmlFile>
+							<suiteXmlFile>${basedir}/src/test/xml/ui/microseer/manyimport/testng-manyimport-good.xml</suiteXmlFile>
+							<suiteXmlFile>${basedir}/src/test/xml/ui/microseer/manyimport/testng-manyimport-bad.xml</suiteXmlFile> -->
+						</suiteXmlFiles>
+					</configuration>
+				</plugin>
+<!-- 				<plugin>
+					<artifactId>maven-assembly-plugin</artifactId>
+					<configuration>
+						<descriptorRefs>
+							<descriptorRef>jar-with-dependencies</descriptorRef>
+						</descriptorRefs>
+						<archive>
+							<manifest>
+								<mainClass>com.shclearing.automation.common.ShClearingTest</mainClass>
+							</manifest>
+						</archive>
+					</configuration>
+					<executions>
+						<execution>
+							<id>make-assembly</id>
+							<phase>package</phase>
+							<goals>
+								<goal>single</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin> -->
+<!-- 				<plugin>  
+				    <groupId>org.apache.maven.plugins</groupId>  
+				    <artifactId>maven-shade-plugin</artifactId>  
+				    <version>1.2.1</version>  
+				    <executions>  
+				        <execution>  
+				            <phase>package</phase>  
+				            <goals>  
+				                <goal>shade</goal>  
+				            </goals>  
+				            <configuration>  
+				                <transformers>  
+				                    <transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">  
+				                        <mainClass>com.shclearing.automation.common.ShClearingTest</mainClass>  
+				                    </transformer>  
+				                </transformers>  
+				            </configuration>  
+				        </execution>  
+				    </executions>  
+				</plugin>  -->
+			</plugins>
+<!-- 		</pluginManagement> -->
+	</build>
+  <repositories>
+  		<repository>
+			<id>alimaven</id>
+			<name>ali maven</name>
+			<url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+		<repository>
+			<id>nexus</id>
+			<name>oschina maven</name>
+			<url>http://maven.oschina.net/content/groups/public/</url>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<snapshots>
+				<enabled>false</enabled>
+			</snapshots>
+		</repository>
+  </repositories>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+	<dependency>
+	    <groupId>com.microsoft.sqlserver</groupId>
+	    <artifactId>mssql-jdbc</artifactId>
+	    <version>7.2.2.jre11</version>
+	</dependency>  
+	<dependency>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-surefire-plugin</artifactId>
+		<version>2.22.0</version>
+		<type>maven-plugin</type>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+	<dependency>
+	    <groupId>com.alibaba</groupId>
+	    <artifactId>fastjson</artifactId>
+	    <version>1.2.47</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient -->
+	<dependency>
+	    <groupId>org.apache.httpcomponents</groupId>
+	    <artifactId>httpclient</artifactId>
+	    <version>4.5.6</version>
+	</dependency>
+ 	<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured --> 
+ 	<dependency> 
+ 		<groupId>io.rest-assured</groupId> 
+ 		<artifactId>rest-assured</artifactId> 
+ 		<version>3.0.5</version> 
+ 	</dependency>
+	<!-- https://mvnrepository.com/artifact/com.jayway.restassured/rest-assured -->
+	<dependency>
+	    <groupId>com.jayway.restassured</groupId>
+	    <artifactId>rest-assured</artifactId>
+	    <version>2.9.0</version>
+	    <scope>compile</scope>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.hamcrest/hamcrest-core -->
+	<dependency>
+	    <groupId>org.hamcrest</groupId>
+	    <artifactId>hamcrest-core</artifactId>
+	    <version>1.3</version>
+	</dependency>
+  	<!-- https://mvnrepository.com/artifact/net.sf.json-lib/json-lib -->
+    <!--Json array start -->
+    <dependency>
+        <groupId>commons-beanutils</groupId>
+        <artifactId>commons-beanutils</artifactId>
+        <version>1.7.0</version>
+    </dependency>
+    <dependency>
+        <groupId>commons-collections</groupId>
+        <artifactId>commons-collections</artifactId>
+        <version>3.1</version>
+    </dependency>
+    <dependency>
+        <groupId>commons-lang</groupId>
+        <artifactId>commons-lang</artifactId>
+        <version>2.5</version>
+    </dependency>
+    <dependency>
+        <groupId>net.sf.ezmorph</groupId>
+        <artifactId>ezmorph</artifactId>
+        <version>1.0.3</version>
+    </dependency>
+    <dependency>
+        <groupId>net.sf.json-lib</groupId>
+        <artifactId>json-lib</artifactId>
+        <version>2.4</version>
+        <classifier>jdk15</classifier>
+    </dependency>
+	<dependency>
+	    <groupId>com.microsoft.sqlserver</groupId>
+	    <artifactId>sqljdbc4</artifactId>
+	    <version>4.0</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.ant/ant -->
+	<dependency>
+	    <groupId>org.apache.ant</groupId>
+	    <artifactId>ant</artifactId>
+	    <version>1.8.4</version>
+	</dependency>
+	<dependency>
+		<groupId>com.belerweb</groupId>
+		<artifactId>pinyin4j</artifactId>
+		<version>2.5.0</version>
+	</dependency>
+  	<dependency>
+	  <!-- jsoup HTML parser library @ https://jsoup.org/ -->
+	  <groupId>net.sf.opencsv</groupId>
+	  <artifactId>opencsv</artifactId>
+	  <version>2.3</version>
+	</dependency>
+    <dependency>
+	  <groupId>com.jcraft</groupId>
+	  <artifactId>jsch</artifactId>
+	  <version>0.1.53</version>
+	  <scope>system</scope>
+	  <systemPath>${basedir}/lib/jsch-0.1.53.jar</systemPath>
+	</dependency>
+	<dependency>
+	  <!-- jsoup HTML parser library @ https://jsoup.org/ -->
+	  <groupId>org.jsoup</groupId>
+	  <artifactId>jsoup</artifactId>
+	  <version>1.7.2</version>
+	</dependency>
+    <dependency>
+	  <groupId>jaxen</groupId>
+	  <artifactId>jaxen</artifactId>
+	  <version>1.1.6</version>
+	  <scope>system</scope>
+	  <systemPath>${basedir}/lib/jaxen-1.1.6.jar</systemPath>
+	</dependency>	
+  
+	<!-- https://mvnrepository.com/artifact/net.sourceforge.javacsv/javacsv -->
+	<dependency>
+	    <groupId>net.sourceforge.javacsv</groupId>
+	    <artifactId>javacsv</artifactId>
+	    <version>2.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.linuxense</groupId>
+	    <artifactId>javadbf</artifactId>
+	    <version>0.4.0</version>
+	</dependency>
+	<dependency>
+		<groupId>com.oracle</groupId>
+		<artifactId>ojdbc14</artifactId>
+		<version>10.2.0.4.0</version>
+		<scope>system</scope>
+		<systemPath>${basedir}/lib/ojdbc14-10.2.0.4.0.jar</systemPath>
+	</dependency>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>3.5.3</version>
+    </dependency>
+    <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-server</artifactId>
+        <version>3.5.3</version>
+    </dependency>
+
+	<dependency>
+		<groupId>org.testng</groupId>
+		<artifactId>testng</artifactId>
+		<version>6.14.0</version>
+	</dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.12</version>
+    </dependency>
+
+	<dependency>
+	    <groupId>log4j</groupId>
+	    <artifactId>log4j</artifactId>
+	    <version>1.2.17</version>
+	</dependency>
+
+	<dependency>
+		<groupId>com.sun.mail</groupId>
+		<artifactId>smtp</artifactId>
+		<version>1.5.4</version>
+	</dependency>
+
+	<dependency>
+		<groupId>dom4j</groupId>
+		<artifactId>dom4j</artifactId>
+		<version>1.6.1</version>
+	</dependency>
+
+	<dependency>
+		<groupId>org.apache.xmlgraphics</groupId>
+		<artifactId>batik-codec</artifactId>
+		<version>1.7</version>
+	</dependency>
+
+	<dependency>
+		<groupId>javax</groupId>
+		<artifactId>javaee-api</artifactId>
+		<version>7.0</version>
+	</dependency>
+
+	<dependency>
+		<groupId>jcifs</groupId>
+		<artifactId>jcifs</artifactId>
+		<version>1.3.17</version>
+	</dependency>
+
+	<dependency>
+		<groupId>net.sf.saxon</groupId>
+		<artifactId>saxon</artifactId>
+		<version>8.7</version>
+	</dependency>
+	
+	<!-- Operate Excel 2017/3/16 Jerry Qi -->
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi</artifactId>
+		<version>3.14</version>
+	</dependency>
+	<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
+	<dependency>
+		<groupId>org.apache.poi</groupId>
+		<artifactId>poi-ooxml</artifactId>
+		<version>3.14</version>
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/pdfbox -->
+	<dependency>
+    	<groupId>org.apache.pdfbox</groupId>
+    	<artifactId>pdfbox</artifactId>
+    	<version>2.0.6</version>
+    	<scope>system</scope>
+		<systemPath>${basedir}/lib/pdfbox-2.0.6.jar</systemPath>	
+	</dependency>
+	
+	<!-- https://mvnrepository.com/artifact/org.apache.pdfbox/fontbox  -->
+	<dependency>
+		<groupId>org.apache.pdfbox</groupId>
+		<artifactId>fontbox</artifactId>
+		<version>2.0.6</version>
+    	<scope>system</scope>
+		<systemPath>${basedir}/lib/fontbox-2.0.6.jar</systemPath>			
+	</dependency>
+  </dependencies>
+
+  <profiles>
+	<profile>
+		<id>Send_Report</id>
+		<activation>
+		</activation>
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.codehaus.mojo</groupId>
+					<artifactId>exec-maven-plugin</artifactId>
+					<version>1.5.0</version>
+					<configuration>
+						<argLine>-Xms128m</argLine>
+						<argLine>-Xmx768m</argLine>
+						<mainClass>com.insigma.automation.framework.utils.ReportUtil</mainClass>
+						<arguments>
+							<argument>${SUBJECT}</argument>
+							<argument>${BUILD_USER}</argument>
+						</arguments>
+					</configuration>
+				</plugin>
+			</plugins>
+		</build>
+	</profile>
+	<profile>
+		<id>Non_Grid_Demo_By_360</id>
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.18.1</version>
+					<configuration>
+						<argLine>-Xms128m</argLine>
+						<argLine>-Xmx768m</argLine>
+						<argLine>-Dfile.encoding=UTF-8</argLine>
+						<systemPropertyVariables>
+						    <jenkins.handle.mode>${HANDLE_MODE}</jenkins.handle.mode>
+							<jenkins.remote.url>${REMOTE_URL}</jenkins.remote.url>
+						</systemPropertyVariables>
+						<suiteXmlFiles>
+							<suiteXmlFile>${basedir}/src/test/java/com/insigma/automation/control/Base_Testng.xml</suiteXmlFile>
+							<suiteXmlFile>${basedir}/src/test/java/com/insigma/automation/control/360Demo.xml</suiteXmlFile>
+						</suiteXmlFiles>
+						<testFailureIgnore>true</testFailureIgnore>
+					</configuration>
+				</plugin>
+			</plugins>
+		</build>
+	</profile>
+	<profile>
+		<id>Grid_Demo_By_Support_Browser</id>
+		<build>
+			<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.18.1</version>
+					<configuration>
+						<argLine>-Xms128m</argLine>
+						<argLine>-Xmx768m</argLine>
+						<argLine>-Dfile.encoding=UTF-8</argLine>
+						<systemPropertyVariables>
+						    <jenkins.handle.mode>${HANDLE_MODE}</jenkins.handle.mode>
+							<jenkins.remote.url>${REMOTE_URL}</jenkins.remote.url>
+						</systemPropertyVariables>
+						<suiteXmlFiles>
+							<suiteXmlFile>${basedir}/src/test/java/com/insigma/automation/control/Base_Testng.xml</suiteXmlFile>
+							<suiteXmlFile>${basedir}/src/test/java/com/insigma/automation/control/GridDemo.xml</suiteXmlFile>
+						</suiteXmlFiles>
+						<testFailureIgnore>true</testFailureIgnore>
+					</configuration>
+				</plugin>
+			</plugins>
+		</build>
+	</profile>
+
+  </profiles>
+  <artifactId>autoTest_ui</artifactId>
+</project>
+

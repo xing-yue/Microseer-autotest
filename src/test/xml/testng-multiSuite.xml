@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="-">
+  <listeners>
+    <listener class-name="com.automation.framework.extentreport.IReporterListener" />
+  </listeners>
+<!--   <parameter name ="handlerMode" value="Selenium" />
+  <parameter name ="dbType" value="Oracle" />
+  <parameter name ="connectPath" value="dummyconnectstring;username;password" />
+  <parameter name ="browserType" value="chrome"/>
+  <parameter name ="emulationName" value="iPhone 6"/>
+  <parameter name ="browserPath" value="" />
+  <parameter name ="testFor" value="pre" /> -->
+  <parameter name ="TestReportName" value="extentTestReport" />
+  <suite-files >
+      <!--模块1-->
+      <suite-file path="testng-template.xml"></suite-file>
+      <!--模块2-->
+      <suite-file path="testng-template2.xml"></suite-file>
+  </suite-files>
+</suite>

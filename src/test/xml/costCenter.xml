@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cost>
+<!-- 	<center>自动化测试成本中心</center>
+	<province>直辖市</province>
+	<city>上海</city>
+	<suite>上海五险</suite>
+	<base>6000</base>
+	<company>mark的公司</company> -->
+	<center>自动换测试-勿动</center>
+	<province>直辖市</province>
+	<city>上海</city>
+	<suite>上海五险</suite>
+	<base>6000</base>
+	<company>mark的公司</company>	
+</cost>
